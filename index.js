@@ -78,5 +78,5 @@ function placeOrder(cardNumber) {
     purchase.push(`${total()}`);
     purchase.push(`${card}`);
     }
-  return `Your total cost is ${purchase[0]}, which will be charged to the card ${purchase[1]}.`
+  return `Your total cost is $${purchase[0]}, which will be charged to the card ${purchase[1]}.`
 }
